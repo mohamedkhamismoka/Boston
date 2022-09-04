@@ -474,6 +474,7 @@ body {
     ;
     margin-top: -65px;
     border-radius: 10px;
+    overflow-x:hidden;
 }
 
 .about-us h1 {
