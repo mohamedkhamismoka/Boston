@@ -1,7 +1,6 @@
 * {
-    box-sizing: border-box;
     margin: 0;
-    padding: 0px;
+    padding: 0;
 }
 
 body {
@@ -204,7 +203,7 @@ body {
 .header {
     z-index: 2;
     color: white;
-    margin-top: 65px;
+    margin-top: 40px;
 }
 
 .header h1 {
@@ -467,7 +466,6 @@ body {
     color: white;
     padding: 20px;
     margin-top: 120px;
-    overflow-x: hidden;
 }
 
 .about-us .banner {
@@ -496,7 +494,7 @@ body {
     background-color: #00bd56;
     opacity: 0.7;
     transform: skew(-40deg);
-    z-index: 2;
+    z-index: 1;
 }
 
 .about-us::after {
@@ -509,7 +507,7 @@ body {
     background-color: #207dff;
     opacity: 0.7;
     transform: skew(-40deg);
-    z-index: 2;
+    z-index: 1;
 }
 
 
@@ -591,7 +589,7 @@ body {
 .squad-header {
     position: relative;
     align-items: center;
-    z-index: 2;
+    z-index: 3;
     color: white;
     margin-top: -40px;
     margin-bottom: 80px;
@@ -818,7 +816,7 @@ body {
 }
 
 .contact input {
-    width: 50%;
+    width: 60%;
     height: 70px;
     border: 1px solid transparent;
     padding: 0 20px;
@@ -886,9 +884,11 @@ footer .social-media-item:hover {
 }
 
 footer .service-item p.service-name {
-    font-size: 16px;
+    font-size: 13px;
     text-transform: capitalize;
-    margin-left: 18px;
+    margin-left: 10px;
+    margin-top: 5px;
+    ;
 }
 
 footer .service-item .svg-inline--fa {
@@ -908,6 +908,12 @@ footer .questions .svg-inline--fa {
 
 
 /*media query*/
+
+@media screen and (max-width:480px) {
+    .squad-header h1 {
+        font-size: 35px;
+    }
+}
 
 @media screen and (max-width:786px) {
     .header h1 {
@@ -934,7 +940,7 @@ footer .questions .svg-inline--fa {
 
 @media screen and (max-width:992px) {
     .navbar-brand::before {
-        height: 86px;
+        height: 87px;
     }
     .navbar .container {
         max-width: 100%;
@@ -973,6 +979,15 @@ footer .questions .svg-inline--fa {
     }
     .news .img-title {
         font-size: 19px;
+    }
+    footer .col-lg-2 div.container-fluid {
+        margin-left: -12px;
+    }
+    footer .service-item p.service-name {
+        font-size: 18px;
+    }
+    footer .service-item .svg-inline--fa {
+        margin-top: 10px;
     }
 }
 
