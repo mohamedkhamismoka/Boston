@@ -934,7 +934,7 @@ footer .questions .svg-inline--fa {
 
 @media screen and (max-width:992px) {
     .navbar-brand::before {
-        height: 86px;
+        height: 87px;
     }
     .navbar .container {
         max-width: 100%;
