@@ -886,7 +886,7 @@ footer .social-media-item:hover {
 }
 
 footer .service-item p.service-name {
-    font-size: 13px;
+    font-size: 16px;
     text-transform: capitalize;
     margin-left: 10px;
     margin-top: 5px;
@@ -894,7 +894,7 @@ footer .service-item p.service-name {
 }
 
 footer .service-item .svg-inline--fa {
-    margin-top: 7px;
+    margin-top: 10px;
 }
 
 footer .questions p {
