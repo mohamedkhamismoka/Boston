@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this is website of Boston Baseball team">
     <link rel="shortcut icon" href="images/Poston.svg" type="image/x-icon">
     <link rel="stylesheet" href="Css/bootstrap.css">
     <link rel="stylesheet" href="Css/all.css">
@@ -80,8 +81,8 @@
                         <h1>BASEBALL CLUB</h1>
                         <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
                         <div class="btns d-flex gap-2">
-                            <button class="btn btn-green">Watch match</button>
-                            <button class="btn btn-blue">Get ticket</button>
+                            <button class="btn btn-green" id="watchmatch">Watch match</button>
+                            <button class="btn btn-blue" id="getTicket">Get ticket</button>
                         </div>
                     </div>
 
@@ -107,7 +108,7 @@
                     <div class="row">
 
                         <div class="team1   col-4">
-                            <img src="./images/image_1.jpg" class="rounded-circle">
+                            <img src="./images/image_1.jpg" alt="timer-team1" class="rounded-circle">
 
                             <span>Boston</span>
                         </div>
@@ -116,7 +117,7 @@
 
                         </div>
                         <div class="team2  col-4">
-                            <img src="images/image_2.jpg" class="rounded-circle">
+                            <img src="images/image_2.jpg" alt="timer-team2" class="rounded-circle">
 
                             <span>JACKSONVILLE</span>
                         </div>
@@ -154,7 +155,7 @@
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-6 col-sm-12 mt-md-3 mt-sm-4 get">
-                    <button class="btn btn-green">Get Ticket</button>
+                    <button class="btn btn-green" id="getTicket">Get Ticket</button>
                 </div>
             </div>
         </div>
@@ -178,7 +179,7 @@
 
                     <div class="col-6 ">
 
-                        <img src="images/Poston.svg" style="width: 120px; height: 120px;" class="rounded-circle">
+                        <img src="images/Poston.svg" style="width: 120px; height: 120px;" class="rounded-circle" alt="poston-logo">
                     </div>
                     <div class="col-6 d-flex flex-column justify-content-center match-table">
                         <h2>12</h2>
@@ -198,14 +199,14 @@
                     </div>
                     <div class="col-6 ">
 
-                        <img src="images/Baltimore.svg" style="width: 120px; height: 120px;" class="rounded-circle">
+                        <img src="images/Baltimore.svg" style="width: 120px; height: 120px;" class="rounded-circle" alt="Baltimore">
                     </div>
 
 
                 </div>
 
                 <div class="col-12">
-                    <button class="last-game-btn btn">More Details</button>
+                    <button class="last-game-btn btn" id="Details">More Details</button>
                 </div>
             </div>
     </section>
@@ -240,7 +241,7 @@
                                     <p>HOME @ARENA - JUNE 7 , 2022</p>
                                 </div>
                                 <div class="col-5 d-flex flex-column  match-team  justify-content-center">
-                                    <img src="images/Poston.svg" class="rounded-circle" style="height: 80px; width: 80px;">
+                                    <img src="images/Poston.svg" class="rounded-circle" style="height: 80px; width: 80px;" alt="Boston">
                                     <h3>Boston</h3>
                                 </div>
                                 <div class="col-2 d-flex  match-table-title justify-content-center w-20  ">
@@ -249,7 +250,7 @@
 
 
                                 <div class="col-5 d-flex match-team  flex-column justify-content-center">
-                                    <img src="images/Texas.svg" class="rounded-circle" style="height: 80px; width: 80px;">
+                                    <img src="images/Texas.svg" class="rounded-circle" style="height: 80px; width: 80px;" alt="texas">
                                     <h3>Texas</h3>
                                 </div>
                             </div>
@@ -265,7 +266,7 @@
                                     <p>HOME @ARENA - JUNE 7 , 2022</p>
                                 </div>
                                 <div class="col-5 d-flex flex-column  match-team  justify-content-center">
-                                    <img src="images/Poston.svg" class="rounded-circle" style="height: 80px; width: 80px;">
+                                    <img src="images/Poston.svg" class="rounded-circle" style="height: 80px; width: 80px;" alt="Boston">
                                     <h3>Boston</h3>
                                 </div>
                                 <div class="col-2 d-flex  match-table-title justify-content-center w-20  ">
@@ -274,7 +275,7 @@
 
 
                                 <div class="col-5 d-flex match-team  flex-column justify-content-center">
-                                    <img src="images/Torento.svg" class="rounded-circle" style="height: 80px; width: 80px;">
+                                    <img src="images/Torento.svg" class="rounded-circle" style="height: 80px; width: 80px;" alt="Torento">
                                     <h3>Torento</h3>
                                 </div>
                             </div>
@@ -292,7 +293,7 @@
                                     <p>HOME @ARENA - JUNE 7 , 2022</p>
                                 </div>
                                 <div class="col-5 d-flex flex-column  match-team  justify-content-center">
-                                    <img src="images/Poston.svg" class="rounded-circle" style="height: 80px; width: 80px;">
+                                    <img src="images/Poston.svg" class="rounded-circle" style="height: 80px; width: 80px;" alt="Boston">
                                     <h3>Boston</h3>
                                 </div>
                                 <div class="col-2 d-flex  match-table-title justify-content-center w-20  ">
@@ -301,7 +302,7 @@
 
 
                                 <div class="col-5 d-flex match-team  flex-column justify-content-center">
-                                    <img src="images/TP.svg" class="rounded-circle" style="height: 80px; width: 80px;">
+                                    <img src="images/TP.svg" class="rounded-circle" style="height: 80px; width: 80px;" alt="TP">
                                     <h3>TP</h3>
                                 </div>
                             </div>
@@ -319,7 +320,7 @@
                                     <p>HOME @ARENA - JUNE 7 , 2022</p>
                                 </div>
                                 <div class="col-5 d-flex flex-column  match-team  justify-content-center">
-                                    <img src="images/Poston.svg" class="rounded-circle" style="height: 80px; width: 80px;">
+                                    <img src="images/Poston.svg" class="rounded-circle" style="height: 80px; width: 80px;" alt="Boston">
                                     <h3>Boston</h3>
                                 </div>
                                 <div class="col-2 d-flex  match-table-title justify-content-center w-20  ">
@@ -328,7 +329,7 @@
 
 
                                 <div class="col-5 d-flex match-team  flex-column justify-content-center">
-                                    <img src="images/Washington.svg" class="rounded-circle" style="height: 80px; width: 80px;">
+                                    <img src="images/Washington.svg" class="rounded-circle" style="height: 80px; width: 80px;" alt="Washington">
                                     <h3>Washington</h3>
                                 </div>
                             </div>
@@ -346,7 +347,7 @@
                                     <p>HOME @ARENA - JUNE 7 , 2022</p>
                                 </div>
                                 <div class="col-5 d-flex flex-column  match-team  justify-content-center">
-                                    <img src="images/Poston.svg" class="rounded-circle" style="height: 80px; width: 80px;">
+                                    <img src="images/Poston.svg" class="rounded-circle" style="height: 80px; width: 80px;" alt="Boston">
                                     <h3>Boston</h3>
                                 </div>
                                 <div class="col-2 d-flex  match-table-title justify-content-center w-20  ">
@@ -355,7 +356,7 @@
 
 
                                 <div class="col-5 d-flex match-team  flex-column justify-content-center">
-                                    <img src="images/Colorado.svg" class="rounded-circle" style="height: 80px; width: 80px;">
+                                    <img src="images/Colorado.svg" class="rounded-circle" style="height: 80px; width: 80px;" alt="Colorado">
                                     <h3>Colorado</h3>
                                 </div>
                             </div>
@@ -386,13 +387,13 @@
                     <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text
                         by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
 
-                    <button class="btn btn-blue">Watch Game</button>
+                    <button class="btn btn-blue" id="watchgame">Watch Game</button>
 
 
                 </div>
 
                 <div class="col-lg-6 d-flex justify-content-center  " style="z-index: 3">
-                    <img src="images/about.jpg" class="banner">
+                    <img src="images/about.jpg" class="banner" alt="About">
 
                 </div>
             </div>
@@ -415,7 +416,7 @@
                 </div>
 
                 <div class="col-lg-6  col-12 d-flex justify-content-center">
-                    <img src="images/about-1.jpg" style="width: 100%;height: 100%;">
+                    <img src="images/about-1.jpg" style="width: 100%;height: 100%;" alt="about1">
                 </div>
 
                 <div class="col-lg-6 col-12  d-flex flex-column  justify-content-center  matches-table ">
@@ -425,7 +426,7 @@
                                 <p>HOME @ARENA - JUNE 7 , 2022</p>
                             </div>
                             <div class="col-5 d-flex flex-column  match-team  justify-content-center">
-                                <img src="images/Poston.svg" class="rounded-circle" style="height: 80px; width: 80px;">
+                                <img src="images/Poston.svg" class="rounded-circle" style="height: 80px; width: 80px;" alt="Boston">
                                 <h3>Boston</h3>
                             </div>
                             <div class="col-2 d-flex  match-table-title justify-content-center w-20  ">
@@ -434,7 +435,7 @@
 
 
                             <div class="col-5 d-flex match-team  flex-column justify-content-center">
-                                <img src="images/Colorado.svg" class="rounded-circle" style="height: 80px; width: 80px;">
+                                <img src="images/Colorado.svg" class="rounded-circle" style="height: 80px; width: 80px;" alt="Colorado">
                                 <h3>Colorado</h3>
                             </div>
                         </div>
@@ -447,7 +448,7 @@
                                 <p>HOME @ARENA - JUNE 7 , 2022</p>
                             </div>
                             <div class="col-5 d-flex flex-column  match-team  justify-content-center">
-                                <img src="images/Poston.svg" class="rounded-circle" style="height: 80px; width: 80px;">
+                                <img src="images/Poston.svg" class="rounded-circle" style="height: 80px; width: 80px;" alt="Boston">
                                 <h3>Boston</h3>
                             </div>
                             <div class="col-2 d-flex  match-table-title justify-content-center w-20  ">
@@ -456,7 +457,7 @@
 
 
                             <div class="col-5 d-flex match-team  flex-column justify-content-center">
-                                <img src="images/Baltimore.svg" class="rounded-circle" style="height: 80px; width: 80px;">
+                                <img src="images/Baltimore.svg" class="rounded-circle" style="height: 80px; width: 80px;" alt="Baltimore">
                                 <h3>Baltimore</h3>
                             </div>
                         </div>
@@ -468,7 +469,7 @@
                                 <p>HOME @ARENA - JUNE 7 , 2022</p>
                             </div>
                             <div class="col-5 d-flex flex-column  match-team  justify-content-center">
-                                <img src="images/Poston.svg" class="rounded-circle" style="height: 80px; width: 80px;">
+                                <img src="images/Poston.svg" class="rounded-circle" style="height: 80px; width: 80px;" alt="Boston">
                                 <h3>Boston</h3>
                             </div>
                             <div class="col-2 d-flex  match-table-title justify-content-center w-20  ">
@@ -477,7 +478,7 @@
 
 
                             <div class="col-5 d-flex match-team  flex-column justify-content-center">
-                                <img src="images/Texas.svg " class=" rounded-circle " style="height: 80px; width: 80px; ">
+                                <img src="images/Texas.svg " class=" rounded-circle " style="height: 80px; width: 80px; " alt="Texas">
                                 <h3>Texas</h3>
                             </div>
                         </div>
@@ -489,7 +490,7 @@
                                 <p>HOME @ARENA - JUNE 7 , 2022</p>
                             </div>
                             <div class="col-5 d-flex flex-column match-team justify-content-center ">
-                                <img src="images/Poston.svg " class="rounded-circle " style="height: 80px; width: 80px; ">
+                                <img src="images/Poston.svg " class="rounded-circle " style="height: 80px; width: 80px; " alt="Boston">
                                 <h3>Boston</h3>
                             </div>
                             <div class="col-2 d-flex match-table-title justify-content-center w-20 ">
@@ -498,7 +499,7 @@
 
 
                             <div class="col-5 d-flex match-team flex-column justify-content-center ">
-                                <img src="images/Minnesota.svg " class="rounded-circle " style="height: 80px; width: 80px; ">
+                                <img src="images/Minnesota.svg " class="rounded-circle " style="height: 80px; width: 80px; " alt="Minesota">
                                 <h3>Minnesota</h3>
                             </div>
                         </div>
@@ -524,48 +525,48 @@
             <div class="owl-two owl-carousel owl-theme">
 
                 <div class="team-member d-flex flex-column justify-content-center">
-                    <img class="rounded-circle" src="images/staff-1.jpg" style="width: 150px;height: 150px;">
+                    <img class="rounded-circle" src="images/staff-1.jpg" style="width: 150px;height: 150px;" alt="staff-1">
                     <h4>David scott</h4>
                     <p>pitcher</p>
                 </div>
                 <div class="team-member d-flex flex-column justify-content-center">
-                    <img class="rounded-circle" src="images/staff-2.jpg" style="width: 150px;height: 150px;">
-                    <h4>David scott</h4>
-                    <p>pitcher</p>
-                </div>
-
-                <div class="team-member d-flex flex-column justify-content-center">
-                    <img class="rounded-circle" src="images/staff-3.jpg" style="width: 150px;height: 150px;">
+                    <img class="rounded-circle" src="images/staff-2.jpg" style="width: 150px;height: 150px;" alt="staff-2">
                     <h4>David scott</h4>
                     <p>pitcher</p>
                 </div>
 
                 <div class="team-member d-flex flex-column justify-content-center">
-                    <img class="rounded-circle" src="images/staff-4.jpg" style="width: 150px;height: 150px;">
+                    <img class="rounded-circle" src="images/staff-3.jpg" style="width: 150px;height: 150px;" alt="staff-3">
                     <h4>David scott</h4>
                     <p>pitcher</p>
                 </div>
 
                 <div class="team-member d-flex flex-column justify-content-center">
-                    <img class="rounded-circle" src="images/staff-5.jpg" style="width: 150px;height: 150px;">
+                    <img class="rounded-circle" src="images/staff-4.jpg" style="width: 150px;height: 150px;" alt="staff-4">
                     <h4>David scott</h4>
                     <p>pitcher</p>
                 </div>
 
                 <div class="team-member d-flex flex-column justify-content-center">
-                    <img class="rounded-circle" src="images/staff-6.jpg" style="width: 150px;height: 150px;">
+                    <img class="rounded-circle" src="images/staff-5.jpg" style="width: 150px;height: 150px;" alt="staff-5">
                     <h4>David scott</h4>
                     <p>pitcher</p>
                 </div>
 
                 <div class="team-member d-flex flex-column justify-content-center">
-                    <img class="rounded-circle" src="images/staff-7.jpg" style="width: 150px;height: 150px;">
+                    <img class="rounded-circle" src="images/staff-6.jpg" style="width: 150px;height: 150px;" alt="staff-6">
                     <h4>David scott</h4>
                     <p>pitcher</p>
                 </div>
 
                 <div class="team-member d-flex flex-column justify-content-center">
-                    <img class="rounded-circle" src="images/staff-8.jpg" style="width: 150px;height: 150px;">
+                    <img class="rounded-circle" src="images/staff-7.jpg" style="width: 150px;height: 150px;" alt="staff-7">
+                    <h4>David scott</h4>
+                    <p>pitcher</p>
+                </div>
+
+                <div class="team-member d-flex flex-column justify-content-center">
+                    <img class="rounded-circle" src="images/staff-8.jpg" style="width: 150px;height: 150px;" alt="staff-8">
                     <h4>David scott</h4>
                     <p>pitcher</p>
                 </div>
@@ -583,7 +584,7 @@
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-12 col-12 d-flex justify-content-center  ">
                     <div class="col-3 d-flex justify-content-center">
-                        <img src="images/baseball-ball.png" style="width: 60px;height: 60px;">
+                        <img src="images/baseball-ball.png" style="width: 60px;height: 60px;" alt="baseball">
                     </div>
                     <div class="col-9  d-flex flex-column justify-content-center">
                         <h3>Baseball training</h3>
@@ -593,7 +594,7 @@
 
                 <div class="col-lg-3 col-md-6 col-sm-12 col-12 d-flex justify-content-center ">
                     <div class="col-3 d-flex justify-content-center">
-                        <img src="images/football-helmet.png" style="width: 60px;height: 60px;">
+                        <img src="images/football-helmet.png" style="width: 60px;height: 60px;" alt="helmet">
                     </div>
                     <div class="col-9  d-flex flex-column justify-content-center">
                         <h3>softball training</h3>
@@ -602,7 +603,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12 col-12 d-flex justify-content-center ">
                     <div class="col-3 d-flex justify-content-center ">
-                        <img src="images/shield.png " style="width: 60px;height: 60px; ">
+                        <img src="images/shield.png " style="width: 60px;height: 60px; " alt="shield">
                     </div>
                     <div class="col-9 d-flex flex-column justify-content-center">
                         <h3>Basic defence</h3>
@@ -611,7 +612,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12 col-12 d-flex justify-content-center ">
                     <div class="col-3 d-flex justify-content-center ">
-                        <img src="images/baseball.png " style="width: 60px;height: 60px; ">
+                        <img src="images/baseball.png " style="width: 60px;height: 60px; " alt="baseball">
                     </div>
                     <div class="col-9 d-flex flex-column justify-content-center">
                         <h3>BASIC TACTICS</h3>
@@ -639,51 +640,51 @@
             <div class="owl-three owl-carousel owl-theme">
 
                 <div class="item d-flex flex-column justify-content-center">
-                    <img src="images/staff-1.jpg" class="rounded-circle">
+                    <img src="images/staff-1.jpg" class="rounded-circle" alt="staff-1">
                     <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                     <h2>Jason smith</h2>
                     <p>pitcher</p>
                 </div>
                 <div class="item d-flex flex-column justify-content-center">
-                    <img src="images/staff-1.jpg" class="rounded-circle">
+                    <img src="images/staff-1.jpg" class="rounded-circle" alt="staff-1">
                     <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                     <h2>Jason smith</h2>
                     <p>pitcher</p>
                 </div>
                 <div class="item d-flex flex-column justify-content-center">
-                    <img src="images/staff-1.jpg" class="rounded-circle">
+                    <img src="images/staff-1.jpg" class="rounded-circle" alt="staff-1">
                     <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                     <h2>Jason smith</h2>
                     <p>pitcher</p>
                 </div>
                 <div class="item d-flex flex-column justify-content-center">
-                    <img src="images/staff-1.jpg" class="rounded-circle">
+                    <img src="images/staff-1.jpg" class="rounded-circle" alt="staff-1">
                     <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                     <h2>Jason smith</h2>
                     <p>pitcher</p>
                 </div>
                 <div class="item d-flex flex-column justify-content-center">
-                    <img src="images/staff-1.jpg" class="rounded-circle">
+                    <img src="images/staff-1.jpg" class="rounded-circle" alt="staff-1">
                     <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                     <h2>Jason smith</h2>
                     <p>pitcher</p>
                 </div>
                 <div class="item d-flex flex-column justify-content-center">
-                    <img src="images/staff-1.jpg" class="rounded-circle">
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <h2>Jason smith</h2>
-                    <p>pitcher</p>
-                </div>
-
-                <div class="item d-flex flex-column justify-content-center">
-                    <img src="images/staff-1.jpg" class="rounded-circle">
+                    <img src="images/staff-1.jpg" class="rounded-circle" alt="staff-1">
                     <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                     <h2>Jason smith</h2>
                     <p>pitcher</p>
                 </div>
 
                 <div class="item d-flex flex-column justify-content-center">
-                    <img src="images/staff-1.jpg" class="rounded-circle">
+                    <img src="images/staff-1.jpg" class="rounded-circle" alt="staff-1">
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    <h2>Jason smith</h2>
+                    <p>pitcher</p>
+                </div>
+
+                <div class="item d-flex flex-column justify-content-center">
+                    <img src="images/staff-1.jpg" class="rounded-circle" alt="staff-1">
                     <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                     <h2>Jason smith</h2>
                     <p>pitcher</p>
@@ -702,7 +703,7 @@
         <div class="container mt-5 wow fadeInUp">
             <div class="row">
                 <div class="col-lg-3 col-md-6  d-flex flex-column img-item  " style="position: relative;">
-                    <img src="images/image_1.jpg">
+                    <img src="images/image_1.jpg" alt="team-img">
                     <p class="img-title">Why Lead Generation is Key for Business Growth</p>
                     <div class="child ">
                         <div class="container d-flex  ">
@@ -737,7 +738,7 @@
 
 
                 <div class="col-lg-3 col-md-6  d-flex flex-column  img-item " style="position: relative;">
-                    <img src="images/image_1.jpg">
+                    <img src="images/image_1.jpg" alt="team image">
                     <p class="img-title">Why Lead Generation is Key for Business Growth</p>
                     <div class="child ">
                         <div class="container d-flex  ">
