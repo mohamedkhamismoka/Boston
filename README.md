@@ -3,7 +3,7 @@
 
 ## Welcome! 👋
 
-This Website as a practice for me 
+This Website as a practice for me  that represent Boston Team Webitse for American Football
 
  
 ## Discription of The Website
@@ -20,8 +20,10 @@ This Website have a collection of sections
 ## Technologies I have used
 -HTML
 -CSS
--JQuery
 -Bootstrap 5
+-java script
+-JQuery
+
 
 ## Demo
 [Link](https://mohamedkhamismoka.github.io/Boston/)
